@@ -286,7 +286,7 @@ const ProductsPage = () => {
                 >
                   {product.description}
                 </p>
-                <p className="text-gray-800 font-semibold">
+                <p className="text-gray-800 font-semibold dark:text-white">
                   {t("Price")}: {product.price} ₾
                   {product.salePrice && (
                     <>

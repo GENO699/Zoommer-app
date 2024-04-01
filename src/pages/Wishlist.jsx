@@ -90,7 +90,7 @@ const Wishlist = () => {
         {likedProducts.map((product) => (
           <div
             key={product.id}
-            className="w-full flex flex-col bg-white shadow-md rounded-lg overflow-hidden"
+            className="w-full flex flex-col bg-white shadow-md rounded-lg overflow-hidden dark:bg-slate-900 dark:text-white"
           >
             <div className="relative">
               <button
@@ -112,12 +112,12 @@ const Wishlist = () => {
                 {product.likedProduct.title}
               </h2>
               <p
-                className="text-gray-600 mb-2 overflow-hidden"
+                className="text-gray-600 mb-2 overflow-hidden dark:text-white"
                 style={{ textOverflow: "ellipsis", whiteSpace: "nowrap" }}
               >
                 {product.likedProduct.description}
               </p>
-              <p className="text-gray-700 font-semibold">
+              <p className="text-gray-700 font-semibold dark:text-white">
                 {product.likedProduct.salePrice ? (
                   <>
                     <span className="text-red-500">

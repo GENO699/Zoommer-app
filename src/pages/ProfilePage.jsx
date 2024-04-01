@@ -97,7 +97,7 @@ function UpdateUserInfoForm() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="form-input"
+              className="form-input dark:text-black"
             />
           </div>
           <div className="form-group">
@@ -107,7 +107,7 @@ function UpdateUserInfoForm() {
               name="password"
               value={formData.password}
               onChange={handleChange}
-              className="form-input"
+              className="form-input dark:text-black"
             />
           </div>
           <div className="form-group">
@@ -117,7 +117,7 @@ function UpdateUserInfoForm() {
               name="first_name"
               value={formData.first_name}
               onChange={handleChange}
-              className="form-input"
+              className="form-input dark:text-black"
             />
           </div>
           <div className="form-group">
@@ -127,7 +127,7 @@ function UpdateUserInfoForm() {
               name="last_name"
               value={formData.last_name}
               onChange={handleChange}
-              className="form-input"
+              className="form-input dark:text-black"
             />
           </div>
           <div className="form-group">
@@ -137,7 +137,7 @@ function UpdateUserInfoForm() {
               name="phone_number"
               value={formData.phone_number}
               onChange={handleChange}
-              className="form-input"
+              className="form-input dark:text-black"
             />
           </div>
           <button type="submit" className="submit-button">

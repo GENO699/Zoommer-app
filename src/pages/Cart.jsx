@@ -28,7 +28,7 @@ function Cart() {
       .then((response) => {
         setCart(response.data);
         calculateTotals(response.data);
-        setLoading(false); // Stop loading
+        setLoading(false); 
       })
       .catch((error) => {
         console.error("Error fetching cart items:", error);
